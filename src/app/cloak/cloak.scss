@@ -1,0 +1,87 @@
+/* cloak.scss */
+.widget-clock.blue-light .clock-face {
+  stroke: #153b6f;
+  fill: #0e2434;
+}
+.widget-clock.blue-light .minor {
+  stroke: #0089ff;
+  stroke-width: 0.5;
+}
+.widget-clock.blue-light .major {
+  stroke: rgba(119, 176, 242, 0.97);
+  stroke-width: 0.5;
+}
+.widget-clock.blue-light .hour {
+  stroke: rgba(119, 176, 242, 0.97);
+  stroke-width: 1;
+}
+.widget-clock.blue-light .minute {
+  stroke: #0089ff;
+  stroke-width: 0.75;
+}
+.widget-clock.blue-light .second,
+.widget-clock.blue-light .second-counterweight {
+  stroke: rgb(234, 31, 54);
+  stroke-width: 0.5;
+}
+.widget-clock.blue-light .second-counterweight {
+  stroke-width: 1.5;
+}
+
+.widget-clock.green-yellow .clock-face {
+  stroke: green;
+  fill: yellow;
+}
+.widget-clock.green-yellow .minor {
+  stroke: #0089ff;
+  stroke-width: 0.5;
+}
+.widget-clock.green-yellow .major {
+  stroke: rgba(119, 176, 242, 0.97);
+  stroke-width: 0.5;
+}
+.widget-clock.green-yellow .hour {
+  stroke: rgba(119, 176, 242, 0.97);
+  stroke-width: 1;
+}
+.widget-clock.green-yellow .minute {
+  stroke: #0089ff;
+  stroke-width: 0.75;
+}
+.widget-clock.green-yellow .second,
+.widget-clock.green-yellow .second-counterweight {
+  stroke: rgb(234, 31, 54);
+  stroke-width: 0.5;
+}
+.widget-clock.green-yellow .second-counterweight {
+  stroke-width: 1.5;
+}
+
+.widget-clock.purple-orange .clock-face {
+  stroke: orange;
+  fill: purple;
+}
+.widget-clock.purple-orange .minor {
+  stroke: #0089ff;
+  stroke-width: 0.5;
+}
+.widget-clock.purple-orange .major {
+  stroke: rgba(119, 176, 242, 0.97);
+  stroke-width: 0.5;
+}
+.widget-clock.purple-orange .hour {
+  stroke: rgba(119, 176, 242, 0.97);
+  stroke-width: 1;
+}
+.widget-clock.purple-orange .minute {
+  stroke: #0089ff;
+  stroke-width: 0.75;
+}
+.widget-clock.purple-orange .second,
+.widget-clock.purple-orange .second-counterweight {
+  stroke: rgb(234, 31, 54);
+  stroke-width: 0.5;
+}
+.widget-clock.purple-orange .second-counterweight {
+  stroke-width: 1.5;
+}

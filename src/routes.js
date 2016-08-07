@@ -11,5 +11,13 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     .state('app', {
       url: '/',
       template: '<app></app>'
+    })
+    .state('cloak', {
+      url: '/o-relogio',
+      template: '<is-cloak></is-cloak>'
+    })
+    .state('contact', {
+      url: '/contato',
+      template: '<is-contact></is-contact>'
     });
 }
