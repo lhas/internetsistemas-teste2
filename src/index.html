@@ -3,10 +3,11 @@
   <head>
     <base href="/">
     <meta charset="utf-8">
-    <title>FountainJS</title>
+    <title>Sistema de Gestão Empresarial</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="http://fountainjs.io/assets/imgs/fountain.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   
     <!-- build:css({.tmp,src}) styles/vendor.css -->
     <!-- bower:css -->
@@ -21,7 +22,19 @@
 
 
   <body ng-app="app">
-    <ui-view></ui-view>
+
+    <div class="mdl-layout mdl-js-layout">
+
+      <is-header></is-header>
+
+      <main class="mdl-layout__content">
+          <ui-view></ui-view>
+      </main>
+
+      <is-footer></is-footer>
+
+    </div>
+
   </body>
 
   <!-- build:js({.tmp,src}) scripts/vendor.js -->
