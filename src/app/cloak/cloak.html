@@ -13,8 +13,8 @@
         <div class="col s6 m6">
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
-              <span class="card-title">Hora de Brasília</span>
-              <ds-widget-clock theme="blue-light" gmt-offset="'-3'" show-gmt-info ng-if="$ctrl.brasilia"></ds-widget-clock>
+              <span class="card-title">Hora de Brasília (24 horas)</span>
+              <ds-widget-clock theme="blue-light" majors-total="24" gmt-offset="'-3'" show-gmt-info ng-if="$ctrl.brasilia"></ds-widget-clock>
             </div>
             <div class="card-action" ng-if="!$ctrl.brasilia">
               <a href="javascript:void(0);" ng-click="$ctrl.show('brasilia')">Mostrar este relógio</a>
@@ -27,7 +27,7 @@
         <div class="col s6 m6">
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
-              <span class="card-title">Hora do Canadá</span>
+              <span class="card-title">Hora do Canadá (12 horas)</span>
               <ds-widget-clock ng-if="$ctrl.canada" gmt-offset="'16.3'" show-gmt-info></ds-widget-clock>
             </div>
             <div class="card-action" ng-if="!$ctrl.canada">
@@ -44,8 +44,8 @@
         <div class="col s6 m6">
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
-              <span class="card-title">Hora de Marte</span>
-              <ds-widget-clock theme="green-yellow" gmt-offset="'9'" show-gmt-info ng-if="$ctrl.marte"></ds-widget-clock>
+              <span class="card-title">Hora de Marte (24 horas)</span>
+              <ds-widget-clock theme="green-yellow" majors-total="24" gmt-offset="'9'" show-gmt-info ng-if="$ctrl.marte"></ds-widget-clock>
             </div>
             <div class="card-action" ng-if="!$ctrl.marte">
               <a href="javascript:void(0);" ng-click="$ctrl.show('marte')">Mostrar este relógio</a>
@@ -58,7 +58,7 @@
         <div class="col s6 m6">
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
-              <span class="card-title">Hora de Amsterdã</span>
+              <span class="card-title">Hora de Amsterdã (12 horas)</span>
               <ds-widget-clock theme="purple-orange" gmt-offset="'5.5'" show-gmt-info ng-if="$ctrl.amsterdam"></ds-widget-clock>
             </div>
             <div class="card-action" ng-if="!$ctrl.amsterdam">
